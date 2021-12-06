@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Countdown</title>
+</head>
+
+<body>
+    <div class="top-image">
+        <img src="images/top-image.svg" alt="">
+    </div>
+    <main>
+        <div class="launch-informations">
+            <h1>READY TO LAUNCH IN...</h1>
+            <div class="countdown-wrap">
+                <div class="countdown-time-label">
+                    <div class="label">
+                        Days
+                    </div>
+                    <div class="time days">
+                        00
+                    </div>
+                </div>
+                <div class="divider">
+                    :
+                </div>
+                <div class="countdown-time-label">
+                    <div class="label">
+                        Horas
+                    </div>
+                    <div class="time horas">
+                        00
+                    </div>
+                </div>
+                <div class="divider">
+                    :
+                </div>
+                <div class="countdown-time-label">
+                    <div class="label">
+                        Minutos
+                    </div>
+                    <div class="time minutos">
+                        00
+                    </div>
+                </div>
+                <div class="divider">
+                    :
+                </div>
+                <div class="countdown-time-label">
+                    <div class="label">
+                        Segundos
+                    </div>
+                    <div class="time segundos">
+                        00
+                    </div>
+                </div>
+            </div>
+            <div class="description">
+                Inscreva-se para saber mais sobre o lançamento
+            </div>
+            <button class="open" type="button">Inscreva-se</button>
+        </div>
+        <div class="rocket">
+            <img src="images/rocket.svg" alt="">
+        </div>
+    </main>
+    <div class="bottom-image">
+        <img src="/images/bottom-image.svg" alt="">
+    </div>
+    <div class="modal-container">
+        <div class="modal">
+            <h1>Insira as informações</h1>
+            <form action="#">
+                <div class="email">
+                    <label for="email">Insira seu e-mail</label>
+                    <input type="email" name="email" placeholder="Insira seu e-mail...">
+                </div>
+                <div class="nome">
+                    <label for="nome">Insira seu nome</label>
+                    <input type="text" name="nome" placeholder="Insira seu nome...">
+                </div>
+            </form>
+            <button class="close">Enviar</button>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+
+</html>
